@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bank Website</title>
+    <style>
+        .iframe-container {
+            width: 450px; /* Adjust as needed */
+            height: 300px; /* Adjust based on login box height */
+            border: none;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+@media (max-width: 480px) {
+    .iframe-container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+      
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Bank</h1>
+    
+    <!-- Example: Embedding Login Box 1 -->
+    <div class="iframe-container">
+        <iframe src="login1.html" frameborder="0" scrolling="no" style="width: 100%; height: 100%;"></iframe>
+    </div>
+
+    <!-- Example: Embedding Login Box 2 -->
+    <div class="iframe-container">
+        <iframe src="login2.html" frameborder="0" scrolling="no" style="width: 100%; height: 100%;"></iframe>
+    </div>
+
+    <!-- Add more iframes for other login boxes as needed -->
+</body>
+</html>
