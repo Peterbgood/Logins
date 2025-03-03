@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Bank Login Boxes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .login-box {
+            max-width: 420px;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            overflow: hidden;
+            background: #ffffff;
+        }
+        .form-control {
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            padding: 12px;
+        }
+        .btn {
+            border-radius: 8px;
+            padding: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        h4, h3 {
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body style="background: #f5f6f5;">
+    <!-- Login Box 1: Classic Elegance -->
+    <div class="login-box">
+        <div class="p-4" style="background: linear-gradient(135deg, #1a2a44, #2a4066)">
+            <h3 class="text-center mb-4 text-white"><i class="fas fa-university me-2"></i> Private Banking</h3>
+            <form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn w-100" style="background: #d4af37; border: none; color: #1a2a44;"><i class="fas fa-sign-in-alt me-2"></i>Access</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Box 2: Tabbed Sophistication -->
+    <div class="login-box">
+        <div class="p-3" style="background: #1a252f;">
+            <ul class="nav nav-tabs border-0 mb-3 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" style="background: rgba(255,255,255,0.1);" data-bs-toggle="tab" href="#personal2">Personal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" style="background: rgba(255,255,255,0.05);" data-bs-toggle="tab" href="#business2">Business</a>
+                </li>
+            </ul>
+            <div class="tab-content p-2">
+                <div class="tab-pane fade show active" id="personal2">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Client ID">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Secure PIN">
+                        </div>
+                        <button type="submit" class="btn w-100" style="background: #c0a375; border: none; color: white;"><i class="fas fa-lock me-2"></i>Login</button>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="business2">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Corporate ID">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn w-100" style="background: #c0a375; border: none; color: white;"><i class="fas fa-lock me-2"></i>Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Box 3: Gold Accent -->
+    <div class="login-box">
+        <div class="p-4 border-bottom" style="background: #fafafa;">
+            <h4 class="text-center mb-4" style="color: #2a2a2a;"><i class="fas fa-coins me-2" style="color: #d4af37;"></i> Elite Banking</h4>
+            <form>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" style="background: #f5f5f5;"><i class="fas fa-user" style="color: #666;"></i></span>
+                    <input type="text" class="form-control" placeholder="Membership ID">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" style="background: #f5f5f5;"><i class="fas fa-key" style="color: #666;"></i></span>
+                    <input type="password" class="form-control" placeholder="Passcode">
+                </div>
+                <button type="submit" class="btn w-100" style="background: #2a2a2a; border: none; color: white;"><i class="fas fa-arrow-right me-2"></i>Enter</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Box 4: Regal Design -->
+    <div class="login-box">
+        <div class="p-4" style="background: linear-gradient(135deg, #2c3e50, #4a6278);">
+            <h4 class="text-center mb-4 text-white"><i class="fas fa-crown me-2"></i> Royal Banking</h4>
+            <form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Account Number">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Access Code">
+                </div>
+                <button type="submit" class="btn w-100" style="background: #ffffff; color: #2c3e50; border: 1px solid rgba(255,255,255,0.2);"><i class="fas fa-sign-in-alt me-2"></i>Secure Entry</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Box 5: Minimal Luxury -->
+    <div class="login-box">
+        <div class="p-4" style="background: #ffffff;">
+            <h4 class="text-center mb-4" style="color: #1a1a1a;"><i class="fas fa-gem me-2" style="color: #4682b4;"></i> Premier Access</h4>
+            <form>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="fas fa-envelope" style="color: #666;"></i></span>
+                        <input type="email" class="form-control border-start-0" placeholder="Email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="fas fa-lock" style="color: #666;"></i></span>
+                        <input type="password" class="form-control border-start-0" placeholder="Password">
+                    </div>
+                </div>
+                <button type="submit" class="btn w-100" style="background: #4682b4; border: none; color: white;"><i class="fas fa-arrow-right-to-bracket me-2"></i>Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Box 6: Tabbed Prestige -->
+    <div class="login-box">
+        <div class="p-4" style="background: #17202a;">
+            <ul class="nav nav-pills mb-3 justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" style="background: #34495e; color: white;" data-bs-toggle="tab" href="#client">Client</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="background: #2c3e50; color: white;" data-bs-toggle="tab" href="#advisor">Advisor</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="client">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Portfolio ID">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn w-100" style="background: #e8b923; border: none; color: #17202a;"><i class="fas fa-user-lock me-2"></i>Access</button>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="advisor">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Advisor ID">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn w-100" style="background: #e8b923; border: none; color: #17202a;"><i class="fas fa-user-lock me-2"></i>Access</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Box 7: Vertical Elegance -->
+    <div class="login-box">
+        <div class="p-4 text-center" style="background: #ffffff;">
+            <h4 class="mb-4" style="color: #2f2f2f;"><i class="fas fa-vault me-2" style="color: #8b5a2b;"></i> Vault Access</h4>
+            <form>
+                <input type="text" class="form-control mb-3" placeholder="Account Holder">
+                <input type="password" class="form-control mb-3" placeholder="Secure Key">
+                <button type="submit" class="btn w-100" style="background: #8b5a2b; border: none; color: white;"><i class="fas fa-sign-in-alt me-2"></i>Enter</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Box 8: Luxurious Gradient -->
+    <div class="login-box">
+        <div class="p-4" style="background: linear-gradient(45deg, #2f2f2f, #4a4a4a);">
+            <h4 class="text-center mb-4 text-white"><i class="fas fa-money-bill-wave me-2"></i> Wealth Management</h4>
+            <form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn w-100" style="background: #ffffff; color: #2f2f2f; border: none;"><i class="fas fa-arrow-right me-2"></i>Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
